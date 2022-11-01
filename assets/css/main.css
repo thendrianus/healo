@@ -307,7 +307,7 @@ p {
 
 .scroll-top:hover {
   color: #fff;
-  background: rgba(88, 100, 255, 0.8);
+  background: #EB4434;
 }
 
 @keyframes animation1 {
@@ -621,7 +621,7 @@ p {
 }
 
 .sticky .navbar .navbar-nav .nav-item .main-btn {
-  border-color: #EB4434;
+  border-color: #08A29E;
 }
 
 .sticky .navbar .navbar-nav .nav-item a::before {
@@ -744,7 +744,7 @@ p {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #EB4434;
+  background: #08A29E;
   bottom: 15px;
   left: 0;
   z-index: -1;
