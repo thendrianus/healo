@@ -620,6 +620,10 @@ p {
   color: #162447;
 }
 
+.sticky .navbar .navbar-nav .nav-item .main-btn {
+  border-color: #EB4434;
+}
+
 .sticky .navbar .navbar-nav .nav-item a::before {
   color: #162447;
 }
@@ -727,6 +731,11 @@ p {
   padding: 10px 0;
   position: relative;
   z-index: 1;
+}
+
+.navbar-nav .nav-item .main-btn {
+  width: 150px; 
+  border-color: white;
 }
 
 .navbar-nav .nav-item a::before {
