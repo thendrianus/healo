@@ -4,15 +4,15 @@
   window.onload = function () {
     window.setTimeout(fadeout, 500);
 
-    fetch('https://api.geoapify.com/v1/ipinfo?apiKey=1235c6c60b7344d8b21d3d8353f9b3d4', { 
-      method: 'GET'
-    })
-    .then(function(response) { return response.json(); })
-    .then(function(json) {
-      console.log(json)
-      document.getElementById("ip-city-location-name").innerHTML = json.city.name;
-      // use the json
-    });
+    // fetch('https://api.geoapify.com/v1/ipinfo?apiKey=1235c6c60b7344d8b21d3d8353f9b3d4', { 
+    //   method: 'GET'
+    // })
+    // .then(function(response) { return response.json(); })
+    // .then(function(json) {
+    //   console.log(json)
+    //   document.getElementById("ip-city-location-name").innerHTML = json.city.name;
+    //   // use the json
+    // });
   };
 
   function fadeout() {
