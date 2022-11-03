@@ -121,7 +121,7 @@
                 Cari solusi kesehatan lengkap tidak harus sendirian lho!
               </h1>
               <p class="wow fadeInUp" data-wow-delay=".6s">
-                Aplikasi yang menghubungkan kamu dengan orang-orang memiliki kondisi yang sama dan <i>personalized program</i> bersama ahli kesehatan di sekitarmu.
+                Aplikasi yang menghubungkan kamu dengan orang-orang yang memiliki kondisi yang sama dan <i>personalized program</i> bersama ahli kesehatan di sekitarmu.
               </p>
               <a
                 href="https://hy1efpg2s5r.typeform.com/to/E9t8w6OU"
@@ -350,6 +350,7 @@
                 action="https://formspree.io/f/xayklbrq"
                 method="POST"
                 class="subscribe-form"
+                target="_blank"
               >
                 <input
                   type="email"
@@ -450,6 +451,79 @@
     <a href="#" class="scroll-top btn-hover"> 
       <i class="lni lni-chevron-up"></i>
     </a>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal"  data-bs-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"  aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="btn-close modal-button-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="row">
+              <div class="col-md-4">
+                  <div class="text-center"> <img src="/assets/img/whatsapp.png" width="200"> </div>
+              </div>
+              <div class="col-md-8">
+                  <div class="text-white mt-4">
+                      <span class="intro-1">Bergabung ke Fitly Community secara instan </span>
+                      <div class="mt-2"> <span class="intro-2">
+                        Langsung terhubung dengan orang-orang yang memiliki kondisi yang sama dan para ahli kesehatan di daerahmu.
+                      </span> </div>
+                      <br>
+                      <form
+                        action="https://formspree.io/f/xayklbrq"
+                        method="POST"
+                        class="subscribe-form"
+                        id="my-form" 
+                      >
+                        <div class="row mb-2">
+                          <div class="col">
+                            <select class="form-select" class="form-control" placeholder="Diagnosa" aria-label="Diagnosa" name="diagnosa" id="diagnosa">
+                              <option selected>Diabetes</option>
+                              <option>GERD</option>
+                              <option>Darah tinggi</option>
+                              <option>Jantung</option>
+                              <option>PCOS</option>
+                              <option>Bipolar Disorder</option>
+                              <option>Depression</option>
+                              <option>Lain nya</option>
+                            </select>
+                          </div>
+                          <div class="col">
+                            <select class="form-select" class="form-control" placeholder="Kota" aria-label="Kota" name="kota">
+                              <option selected>Jakarta</option>
+                              <option>Bandung</option>
+                              <option>Surabaya</option>
+                              <option>Medan</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row mb-2">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Nama" aria-label="Nama" name="nama" id="nama">
+                          </div>
+                          <div class="col">
+                            <input type="number" class="form-control" placeholder="No Whatsapp" aria-label="No Whatsapp" name="nohp" id="nohp">
+                          </div>
+                        </div>
+                        <div class="row mb-2">
+                          <div class="col">
+                            <button type="submit" class="btn btn-primary-modal" id="joinGroupWhatsappButton">Join Group Whatsapp<i class="fa fa-cloud-download"></i></button>  
+                            <p id="my-form-status"></p>
+                          </div>
+                        </div>
+                      </form>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- ======== JS here ======== -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>

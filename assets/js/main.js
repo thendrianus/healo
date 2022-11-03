@@ -104,4 +104,63 @@
 
   // WOW active
   new WOW().init();
+
+  var myModal = new bootstrap.Modal(document.getElementById("exampleModal"), {});
+  document.onreadystatechange = function () {
+    myModal.show();
+  };
+
+  var form = document.getElementById("my-form");
+  async function handleSubmit(event) {
+  event.preventDefault();
+  var status = document.getElementById("my-form-status");
+  var data = new FormData(event.target);
+
+  const nama = document.getElementById("nama").value;
+  const nohp = document.getElementById("nohp").value;
+  console.log(nama)
+  console.log(nohp)
+  if (!nama || !nohp) {
+    window.alert("Oops! Tolong periksa kembali data anda")
+    return
+  }
+  
+  fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+      'Accept': 'application/json'
+  }
+  }).then(response => {
+    if (response.ok) {
+      const diagnosa = document.getElementById("diagnosa");
+      const diagnosaValue = diagnosa.options[diagnosa.selectedIndex].value
+      
+      switch (diagnosaValue) {
+        case('Diabetes'): 
+          window.open("https://chat.whatsapp.com/GBj3rC24uDS25RUtU5lOu8");
+          break;
+        case('GERD'):
+          window.open("https://chat.whatsapp.com/Cw3jwqUnZaxCkEbEOdMfdX");
+          break;
+      }
+  
+      myModal.hide();
+      form.reset()
+      window.alert("Terima kasih telah bergabung dengan group whatsapp kami")
+    } else {
+      response.json().then(data => {
+      if (Object.hasOwn(data, 'errors')) {
+        console.log(data["errors"].map(error => error["message"]).join(", "))
+      } else {
+        console.log("Oops! There was a problem submitting your form")
+      }
+    })
+  }
+  }).catch(error => {
+    console.log("Oops! There was a problem submitting your form")
+  });
+  }
+  form.addEventListener("submit", handleSubmit)
+
 })();
