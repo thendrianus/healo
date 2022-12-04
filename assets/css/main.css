@@ -48,7 +48,7 @@ button:focus,
 }
 
 a:hover {
-  color: #08A29E;
+  color: #04a49c;
 }
 
 a {
@@ -237,7 +237,7 @@ p {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border: none;
-  background: #08A29E;
+  background: #04a49c;
   overflow: hidden;
 }
 
@@ -246,9 +246,9 @@ p {
 }
 
 .main-btn.border-btn {
-  border: 2px solid #08A29E;
+  border: 2px solid #04a49c;
   background: transparent;
-  color: #08A29E;
+  color: #04a49c;
 }
 
 .btn-hover {
@@ -281,7 +281,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #08A29E;
+  background: #04a49c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -307,7 +307,7 @@ p {
 
 .scroll-top:hover {
   color: #fff;
-  background: #EB4434;
+  background: #fab24c;
 }
 
 @keyframes animation1 {
@@ -417,7 +417,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #08A29E #08A29E #ddd;
+  border-color: #04a49c #04a49c #ddd;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -621,7 +621,7 @@ p {
 }
 
 .sticky .navbar .navbar-nav .nav-item .main-btn {
-  border-color: #08A29E;
+  border-color: #04a49c;
 }
 
 .sticky .navbar .navbar-nav .nav-item a::before {
@@ -744,7 +744,7 @@ p {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #08A29E;
+  background: #04a49c;
   bottom: 15px;
   left: 0;
   z-index: -1;
@@ -861,8 +861,8 @@ p {
   height: 40px;
   border-radius: 50%;
   background: #fff;
-  border: 3px solid #08A29E;
-  color: #08A29E;
+  border: 3px solid #04a49c;
+  color: #04a49c;
   left: 15px;
   bottom: 0;
   z-index: 9;
@@ -944,7 +944,7 @@ p {
   height: 130px;
   border-radius: 50%;
   background: rgba(88, 100, 255, 0.1);
-  color: #08A29E;
+  color: #04a49c;
   margin: auto;
   margin-bottom: 30px;
   font-size: 65px;
@@ -1029,7 +1029,7 @@ p {
 }
 
 .box-style .content a.main-btn.border-btn:hover {
-  color: #08A29E;
+  color: #04a49c;
 }
 
 .box-style .content a.main-btn.border-btn:hover::after {
@@ -1049,15 +1049,15 @@ p {
 }
 
 .box-style.color-2 {
-  border-color: #08A29E;
+  border-color: #04a49c;
 }
 
 .box-style.color-2 .icon {
-  color: #08A29E;
+  color: #04a49c;
 }
 
 .box-style.color-2 .content a:hover {
-  color: #08A29E;
+  color: #04a49c;
 }
 
 .box-style.color-2 .content .main-btn:hover {
@@ -1220,7 +1220,7 @@ p {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #08A29E;
+  background: #04a49c;
   position: absolute;
   left: 0;
   top: 6.5px;
@@ -1254,7 +1254,7 @@ p {
   font-size: 65px;
   line-height: 1;
   margin-bottom: 30px;
-  color: #08A29E;
+  color: #04a49c;
 }
 
 .feature-extended-section .single-feature-extended .content h3 {
@@ -1357,7 +1357,7 @@ p {
     position: static;
     margin-top: 20px;
     background: #fff;
-    color: #08A29E;
+    color: #04a49c;
     padding: 17.5px 35px;
   }
 }
@@ -1367,7 +1367,7 @@ p {
     position: absolute;
     margin-top: 0px;
     color: #fff;
-    background: #08A29E;
+    background: #04a49c;
     padding: 17.5px 25px;
   }
 }
@@ -1390,7 +1390,7 @@ p {
 @media (max-width: 767px) {
   .footer {
     padding-top: 120px;
-    background: #08A29E;
+    background: #04a49c;
   }
 }
 
@@ -1436,7 +1436,7 @@ p {
 }
 
 .footer .widget-wrapper .footer-widget .socials li a:hover {
-  color: #08A29E;
+  color: #04a49c;
   background: #fff;
 }
 
